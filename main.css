@@ -45,7 +45,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .tasks > div, .form {
     width: 90%;
   }
