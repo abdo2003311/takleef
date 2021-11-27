@@ -76,11 +76,7 @@ function Task(taskName) {
 
 // end Task class
 
-add.addEventListener('click', (e) => {
-
-    // preventing from reloading the page
-
-    e.preventDefault();
+add.addEventListener('click', () => {
 
     // cheking if the input is empty
 

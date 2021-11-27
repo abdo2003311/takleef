@@ -34,7 +34,7 @@
 .tasks > div , .form{
     @extend %container
 }
-@media (max-width : 2000px) {
+@media (max-width : 768px) {
     %container {
         width: 90% !important
     }
