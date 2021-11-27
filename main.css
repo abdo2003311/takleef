@@ -47,7 +47,7 @@
 
 @media (max-width: 900px) {
   .tasks > div, .form {
-    width: 90%;
+    width: 90% !important;
   }
 }
 /*# sourceMappingURL=main.css.map */
