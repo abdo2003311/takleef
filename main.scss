@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+%container{
+    display:flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin:1vw auto;
+    padding: 1vw;
+    box-shadow: .1vw .1vw 1vw .1vw #ccc;
+    border-radius: 3vw;
+    input{
+        flex-grow: 2;
+        border: .3vw solid rgb(65, 47, 230);
+        border-radius: 3vw;
+    }
+    button{
+        background: rgb(65, 47, 230);
+        color: #Fff;
+        border: 0;
+        padding: 1vw;
+        margin: 1vw;
+        transition: .3s;
+        &:hover {
+            background: #fff;
+            color: rgb(65, 47, 230);
+            cursor: pointer;
+        }
+    }
+}
+
+.tasks > div , .form{
+    @extend %container
+}

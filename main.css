@@ -1,0 +1,46 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.tasks > div, .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 50%;
+  margin: 1vw auto;
+  padding: 1vw;
+  -webkit-box-shadow: .1vw .1vw 1vw .1vw #ccc;
+          box-shadow: .1vw .1vw 1vw .1vw #ccc;
+  border-radius: 3vw;
+}
+
+.tasks > div input, .form input {
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  border: 0.3vw solid #412fe6;
+  border-radius: 3vw;
+}
+
+.tasks > div button, .form button {
+  background: #412fe6;
+  color: #Fff;
+  border: 0;
+  padding: 1vw;
+  margin: 1vw;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.tasks > div button:hover, .form button:hover {
+  background: #fff;
+  color: #412fe6;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
