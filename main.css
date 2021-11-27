@@ -44,4 +44,10 @@
   color: #412fe6;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .tasks > div, .form {
+    width: 90%;
+  }
+}
 /*# sourceMappingURL=main.css.map */
